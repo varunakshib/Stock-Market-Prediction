@@ -3,7 +3,7 @@ from utils import predict_price
 from pyngrok import ngrok
 
 app = Flask(__name__)
-ngrok.set_auth_token("27Y9B48hCyG4kfHAGHmwJ9RFUQY_NkQviZ7KTPMGAsD7fG9z")
+ngrok.set_auth_token("2fuDO1InjqZ1rA4sLo5UyLBT5NG_54V1C7wAE9UdwoBfR2gzg")
 public_url = ngrok.connect(5000).public_url
 
 print(public_url)
