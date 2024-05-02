@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction</title>
+    <style>
+        body{
+            height: 100vh;
+            margin: 0;
+            background-color: linear-gradient(to right bottom, #c0c0c1, #c9c9cb, #d1d1d4, #dadade, #e3e3e8);
+            background-image: linear-gradient(to right bottom, #c0c0c1, #c9c9cb, #d1d1d4, #dadade, #e3e3e8);
+
+        }
+        table {
+            margin-top:40px;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: center;
+            padding: 8px;
+        }
+        th {
+            background-color: black;
+            color:white;
+        }
+        h1{
+        text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Prediction</h1>
+    <table>
+        <tr>
+            <th>Date</th>
+            <th>Open</th>
+            <th>High</th>
+            <th>Low</th>
+            <th>Close</th>
+            <th>Next Close</th>
+        </tr>
+        <tr>
+            <td>{{ data.date }}</td>
+            <td>{{ data.open }}</td>
+            <td>{{ data.high }}</td>
+            <td>{{ data.low }}</td>
+            <td>{{ data.close }}</td>
+            <td>{{ data.next_close }}</td>
+        </tr>
+    </table>
+</body>
+</html>

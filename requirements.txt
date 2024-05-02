@@ -1,0 +1,7 @@
+flask
+yahoo-fin
+pyspark
+numpy
+pandas
+yfinance
+pyngrok
